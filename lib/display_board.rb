@@ -2,9 +2,9 @@
 # out the current state.
 
 def display_board(game)
-  print "#{game[0]} | #{game[1]} | #{game[2]}"
-  print "-----------"
-  print "#{game[3]} | #{game[4]} | #{game[5]}"
-  print "-----------"
-  print "#{game[6]} | #{game[7]} | #{game[8]}"
+  puts "#{game[0]} | #{game[1]} | #{game[2]}"
+  puts "-----------"
+  puts "#{game[3]} | #{game[4]} | #{game[5]}"
+  puts "-----------"
+  puts "#{game[6]} | #{game[7]} | #{game[8]}"
 end
